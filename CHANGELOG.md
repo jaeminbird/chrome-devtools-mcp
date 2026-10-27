@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.12.1](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.12.0...chrome-devtools-mcp-v1.12.1) (2026-10-27)
+
+
+### 🛠️ Fixes
+
+* **console:** stop resolving a cyclic Error.cause chain after 10 causes ([#3338](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3338)) ([172656a](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/172656ab38a4ff666f88dc9032fa841834a69495))
+* **plugin:** launch the Claude Code MCP server with npx --prefix ([#3353](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3353)) ([a24334d](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/a24334d3a1733996438c3c4786ab4f880aaaf044))
+
+
+### ⚡ Performance
+
+* **memory:** drop async parents of request initiators in NetworkCollector ([#3345](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3345)) ([ca6f834](https://github.com/ChromeDevTools/chrome-devtools-mcp/commit/ca6f83498014e74243117a2aa3830cf71091d64d)), closes [#3344](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3344)
+
 ## [1.12.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/compare/chrome-devtools-mcp-v1.11.0...chrome-devtools-mcp-v1.12.0) (2026-10-22)
 
 
